@@ -1,7 +1,7 @@
 Last.fm Hugo Demo Theme
 =================
 
-This is a simple demo theme that shows how to use [last.fm](https://last.fm) with [hugo](https://gohugo.io).
+This is a simple demo theme that shows how to use [last.fm](https://last.fm) with [hugo](https://gohugo.io). Running demo can be found [here][demo_page].
 
 Installation
 ------------
@@ -46,6 +46,7 @@ License
 This theme is released under the MIT License. For more information read the
 [license][license].
 
+[demo_page]: https://hugolastfm.demo.ryankes.eu
 [setup_guide]: http://gohugo.io/overview/installing/
 [issue_tracker]: https://github.com/alrayyes/lastfm-hugo-demo-theme/issues
 [pull_request]: https://github.com/alrayyes/lastfm-hugo-demo-theme/pulls
