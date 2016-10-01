@@ -31,7 +31,8 @@
         {{ $dataJ := getJSON (printf "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=%s&api_key=%s&format=json&limit=%s" .Site.Params.username .Site.Params.apikey (.Site.Params.limit) ) }}
         {{ range $dataJ.recenttracks.track }}
         <a href="{{ .url }}" target="_new">
-        <div class="cover-card col-sm-4" style="background: url({{ range last 1 .image }}{{ index . "#text" }}{{ end }}) no-repeat center top;background-size:cover;">
+            
+        <div class="cover-card col-sm-4" style="background: url({{ range last 1 .image }}{{ if index . "#text" }}{{ index . "#text" }}{{ else  }}http://img2-ak.lst.fm/i/u/300x300/c6f59c1e5e7240a4c0d427abd71f3dbb.png{{ end }}{{ end }}) no-repeat center top;background-size:cover;">
             <p>
                 {{ printf "%s - %s" (index .artist "#text") .name }}<br>
                 -<br>
