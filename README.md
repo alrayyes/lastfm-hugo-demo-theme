@@ -22,7 +22,7 @@ Add the following to your config.toml:
 [Params]
 username = "<username>"
 apikey = "<apikey>"
-limit = "200"
+limit = "<limit>"
 ```
 
 Username is your [last.fm](https://last.fm) username and the limit is the number of scrobbles you want to see (max 200). You can get an api key by creating an api account [here](http://www.last.fm/api/account/create).
