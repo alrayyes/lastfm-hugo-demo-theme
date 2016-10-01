@@ -1,4 +1,4 @@
-name = "Lastfmhugodemo"
+name = "LastfmHugoDemo"
 license = "MIT"
 licenselink = "https://github.com/alrayyes/lastfm-hugo-demo-theme/blob/master/LICENSE.md"
 description = "Theme that demonstrates Hugo & Last.fm api working together"
