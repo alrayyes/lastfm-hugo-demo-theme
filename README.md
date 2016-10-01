@@ -46,7 +46,7 @@ License
 This theme is released under the MIT License. For more information read the
 [license][license].
 
-[demo_page]: https://hugolastfm.demo.ryankes.eu
+[demo_page]: https://lastfm-hugo-demo.ryankes.eu/
 [setup_guide]: http://gohugo.io/overview/installing/
 [issue_tracker]: https://github.com/alrayyes/lastfm-hugo-demo-theme/issues
 [pull_request]: https://github.com/alrayyes/lastfm-hugo-demo-theme/pulls
