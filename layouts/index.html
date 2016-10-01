@@ -32,7 +32,7 @@
         {{ range $dataJ.recenttracks.track }}
         <a href="{{ .url }}" target="_new">
             
-        <div class="cover-card col-sm-4" style="background: url({{ range last 1 .image }}{{ if index . "#text" }}{{ index . "#text" }}{{ else  }}http://img2-ak.lst.fm/i/u/300x300/c6f59c1e5e7240a4c0d427abd71f3dbb.png{{ end }}{{ end }}) no-repeat center top;background-size:cover;">
+        {{ range last 1 .image }}<div class="cover-card col-sm-4" style="background: url({{ if index . "#text" }}{{ index . "#text" }}{{ else  }}http://img2-ak.lst.fm/i/u/300x300/c6f59c1e5e7240a4c0d427abd71f3dbb.png{{ end }}) no-repeat center top;background-size:cover;">{{ end }}
             <p>
                 {{ printf "%s - %s" (index .artist "#text") .name }}<br>
                 -<br>
