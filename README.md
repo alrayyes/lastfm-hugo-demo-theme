@@ -1,4 +1,4 @@
-Last.fm Hugo Demo
+Last.fm Hugo Demo Theme
 =================
 
 This is a simple demo theme that shows how to use [last.fm](https://last.fm) with [hugo](https://gohugo.io).
