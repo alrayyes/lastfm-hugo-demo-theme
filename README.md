@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/66ec21eac3d13a824ffad55138a17e4a/m/master "wercker status")](https://app.wercker.com/project/byKey/66ec21eac3d13a824ffad55138a17e4a)
+
 Last.fm Hugo Demo Theme
 =================
 
